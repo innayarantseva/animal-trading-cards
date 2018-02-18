@@ -1,0 +1,48 @@
+/* Common Styles */
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Animal Card*/
+
+.card {
+    margin: auto;
+    width: 300px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    box-shadow: 5px 5px 15px #dddddd;
+}
+
+.card__image {
+    width: 300px;
+    padding: 13px 0;
+}
+
+.card__label {
+    font-weight: bold;
+}
+
+.card__list {
+    list-style: none;
+    padding: 0;
+}
+
+.card__title {
+    color: #ff8f00;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card__description {
+    border: 1px solid #ffc046;
+    padding: 0 13px;
+    font-size: 13px;
+}
+
+.card__fact {
+    color: #34515e;
+    font-style: italic;
+    font-weight: 200;
+}
